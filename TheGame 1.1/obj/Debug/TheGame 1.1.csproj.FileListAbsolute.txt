@@ -1,0 +1,7 @@
+C:\Users\Mars\source\repos\TheGame 1.1\TheGame 1.1\obj\Debug\TheGame 1.1.csprojResolveAssemblyReference.cache
+C:\Users\Mars\source\repos\TheGame 1.1\TheGame 1.1\obj\Debug\TheGame 1.1.csproj.CoreCompileInputs.cache
+C:\Users\Mars\source\repos\TheGame 1.1\TheGame 1.1\bin\Debug\TheGame 1.1.exe.config
+C:\Users\Mars\source\repos\TheGame 1.1\TheGame 1.1\bin\Debug\TheGame 1.1.exe
+C:\Users\Mars\source\repos\TheGame 1.1\TheGame 1.1\bin\Debug\TheGame 1.1.pdb
+C:\Users\Mars\source\repos\TheGame 1.1\TheGame 1.1\obj\Debug\TheGame 1.1.exe
+C:\Users\Mars\source\repos\TheGame 1.1\TheGame 1.1\obj\Debug\TheGame 1.1.pdb
