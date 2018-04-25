@@ -6,28 +6,6 @@ using System.Threading.Tasks;
 
 namespace TheGame
 {
-    class Spider
-    {
-        public bool alive = true;
-        public int attack = 20;
-        public int health = 40;
-        public int defence = 13;
-    }
-    class Goblin
-    {
-        public bool alive = true;
-        public int attack = 12;
-        public int health = 30;
-        public int defence = 7;
-    }
-    class Orc
-    {
-        public bool alive = true;
-        public int attack = 15;
-        public int health = 40;
-        public int defence = 8;
-    }
-
     class Program
     {
         static void Main(string[] args)
@@ -50,7 +28,7 @@ namespace TheGame
                 Console.Clear();
                 Console.WriteLine("Вы внимательно смотрите по сторонам и замечаете в противоположном углу дряхлый \n\rскелет. Подойдя поближе, вы замечаете, что он сжимает ржавый меч в своей \n\rкостлявой руке. Мысленно поблагодарив бедолагу за такой щедрый подарок, \n\rвы берете оружее и отходите от скелета.");
                 NewUser.EquipSword();
-                Console.WriteLine("А между прочим, меч еще может послужить вам верой и правдой! Одев его, вы получаете 8 к атаке.");
+                Console.WriteLine("А между прочим, меч еще может послужить вам верой и правдой! Взяв его в руки, вы получаете 8 к атаке.");
                 goto Cave;
             }
             else if ((action == "look") && (NewUser.sword == true))
@@ -215,12 +193,12 @@ namespace TheGame
                 }
                 if (action == "go")
                     goto Cross;
-            }
-            else
-            {
-                Console.Clear();
-                goto Room;
-            }
+                else
+                {
+                    Console.Clear();
+                    goto Room;
+                }
+            }            
             Win:
             {
                 Console.WriteLine("Поздравляю, вы победили!");
