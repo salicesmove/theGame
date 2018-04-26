@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace TheGame
 {
-    class Goblin
+    class Goblin : Mobs
     {
-        public bool alive = true;
-        public int attack = 12;
-        public int health = 30;
-        public int defence = 7;
+        public Goblin()
+        {
+        attack = 12;
+        health = 30;
+        defence = 7;
+        }
     }
 }

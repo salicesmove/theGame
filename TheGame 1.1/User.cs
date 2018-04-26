@@ -51,6 +51,12 @@ namespace TheGame
                 while ((u_hel > 0) && (m_hel > 0))
                 {
                     m_hel -= (u_att - m_def);
+                    if (m_hel <= 0)
+                    {
+                        m_hel = 0;
+                        Console.WriteLine("Вы нанесли врагу " + (u_att - m_def) + " урона! У него осталось " + m_hel + " Здоровья.");
+                        break;
+                    }
                     Console.WriteLine("Вы нанесли врагу " + (u_att - m_def) + " урона! У него осталось " + m_hel + " Здоровья.");
                     if (m_hel < 0) goto Link;
                     u_hel -= (m_att - u_def);

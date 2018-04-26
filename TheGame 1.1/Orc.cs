@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace TheGame
 {
-    class Orc
+    class Orc : Mobs
     {
-        public bool alive = true;
-        public int attack = 15;
-        public int health = 40;
-        public int defence = 8;
+        public Orc()
+        {
+        attack = 15;
+        health = 40;
+        defence = 8;
+        }
     }
+
 }

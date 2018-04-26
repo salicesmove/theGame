@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace TheGame
 {
-    class Spider
+    class Spider: Mobs
     {
-        public bool alive = true;
-        public int attack = 20;
-        public int health = 40;
-        public int defence = 13;
+        public Spider()
+        {
+            attack = 20;
+            health = 40;
+            defence = 13;
+        }
     }
 }
